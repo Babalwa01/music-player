@@ -11,7 +11,7 @@ body {
     font-family: 'Lato', sans-serif;
     background-image: linear-gradient(
         0deg,
-        rgb(247, 247, 247) 23.8%,
+        rgb(116, 110, 110) 23.8%,
         rgb(252, 221, 221) 92%
     );
     display: flex;
@@ -21,7 +21,7 @@ body {
 }
 
 .music-container {
-    background-color: #fff;
+    background-color: rgb(180, 174, 174);
     border-radius: 15px;
     box-shadow: 0 20px 20px 0 rgba(252, 169, 169, 0.6);
     display: flex;
@@ -38,7 +38,7 @@ body {
 
 .img-container::after {
     content: '';
-    background-color: #fff;
+    background-color: rgb(180, 174, 174);
     height: 20px;
     width: 20px;
     position: absolute;
@@ -83,9 +83,9 @@ body {
 }
 
 .action-btn {
-    background-color: #fff;
+    background-color: rgb(180, 174, 174);
     border: 0;
-    color: #dfdbdf;
+    color: #e7e3e7;
     font-size: 20px;
     cursor: pointer;
     padding: 10px;
@@ -93,7 +93,7 @@ body {
 }
 
 .action-btn-big {
-    color: #cdc2d0;
+    color: #e8e2eb;
     font-size: 30px;
 }
 
